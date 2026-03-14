@@ -1,0 +1,33 @@
+# Step into the project
+cd parking-lot
+
+# 1. COMPILE
+mvn compile
+
+# 2. TEST
+mvn test
+
+# 3. RUN (compile + run Main directly, no JAR needed)
+mvn exec:java
+
+# 4. PACKAGE (builds target/parking-lot.jar)
+mvn package
+
+# 5. Run the JAR after packaging
+java -jar target/parking-lot.jar
+
+# 6. Full lifecycle in one shot
+mvn clean package
+
+# 7. Skip tests when just packaging quickly
+mvn clean package -DskipTests
+
+
+==============================
+
+Fallback — Plain javac (zero internet needed)
+bash build.sh compile    # compile only
+bash build.sh test       # 16 tests — 8 fee + 8 spot assignment
+bash build.sh run        # run the 7-scenario demo
+bash build.sh package    # build target/parking-lot.jar
+bash build.sh all        # clean → compile → test → package

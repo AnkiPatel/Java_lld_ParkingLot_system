@@ -1,0 +1,29 @@
+Act as an experienced software expert. help me to address LLD, for interview preparation for "Parking Lot".
+Here are the details for interview criteria
+1) Answer must have clear implementation with proper reasoning. 
+2) Programming language is JAVA
+
+Other things to focus:
+-> Must not use in-built framework of Java.
+-> Must not use advanced java concepts. Code should be easily portable in other OOP supported languages
+
+If above things are fine with you, I will provide exact requirments
+
+===============================
+
+
+A3 — Partial hour billing:  partial hour charges is 75% of hourly charges
+
+===============================
+A) Before starting coding, create a document in .docx with detailed explanation of 
+1. What we are making 
+2. Choice we made about classes and their relationships with reasons
+3. Design pattern we are going to used here with the reasons
+4. Algorithm we are going to use with the reason. 
+
+It must be ready to digest for an engineer while doing preparation for interview.
+
+B) Create .md file for you so that every time you can generate exact same code from it. 
+
+===============================
+Go ahead with implementation. End result should be a maven project which i can run independently and test. 

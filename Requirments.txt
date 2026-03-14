@@ -1,0 +1,41 @@
+
+# Usa Cases 
+## Admin
+### Add a parking spot: To add a new parking spot, specify spot type (accessible, compact, large, motorcycle) and location (e.g., floor, section).
+### Remove the parking spot: To remove it from the system if it is no longer available (due to maintenance or repurposing).
+### Update the parking spot: To update the details of an existing parking spot, such as changing its type or status (e.g., available/unavailable).
+### Add/modify rate: To configure or change the pricing rates for durations, vehicles, or parking spot types.
+### Update the account: To update the admin or agent account details and manage payment information or permissions.
+### Login/Logout: To securely log in or out of the admin or agent account to access system features.
+### View the account: To view account details such as payment status, outstanding balances, or account activity history.
+
+## Customer
+### Take ticket: To receive a parking ticket at the entrance, which records the vehicle information and entry time.
+### Scan ticket at exit: To present the ticket at the exit, enabling the system to calculate the total parking fee based on duration, vehicle, and spot type.
+### Pay for ticket: To pay the parking fee using cash or a card at an automated exit panel.
+### Park vehicle: To park the vehicle in the spot assigned by the system.
+
+## Parking lot system
+### Assign parking spot: To automatically select and allocate an available spot based on vehicle type, spot type, and real-time availability.
+### Remove parking spot: To update the spot’s status to unavailable if the spot is out of service or being removed from inventory.
+### Show full: To display a “full” status at entrances and on display boards when the parking lot or a specific type is at capacity.
+### Show available spots: To provide real-time updates of the number of available spots by type at each entrance, exit, and floor.
+### Calculate parking fee: To determine the total amount owed by the customer according to current pricing rules, the system calculates the fee based on the parking duration (from entry to exit), vehicle type, and parking spot type, automatically triggering this calculation when the customer scans their ticket at the exit.
+
+
+## Requirments
+### R1: The parking lot must support a total capacity of up to 40,000 vehicles.
+### R2: The parking lot must support multiple types of parking spots:
+1) Accessible (for individuals with disabilities)
+2) Compact
+3) Large
+4) Motorcycle
+### R3: The parking lot should provide multiple entrance and exit points to support efficient traffic flow.
+### R4: The system must support parking for four types of vehicles: cars, trucks, vans, and motorcycles.
+### R5: A display board at each entrance and on every floor should show the current number of available parking spots for each parking spot type.
+### R6: The system must not allow more vehicles to enter once the parking lot reaches its maximum capacity.
+### R7: When the parking lot is fully occupied, a clear message should be displayed at each entrance and on all display boards.
+### R8: Customers must be issued a parking ticket at entry. The ticket will be used to track parking time and calculate payment at exit.
+### R9: Customers should be able to pay for parking at the automated exit panel.
+### R10: The parking lot system must support configurable pricing rates based on vehicle type and/or parking spot type and rates for different parking durations (e.g., first hour, subsequent hours).
+### R11: Payments must be accepted via credit/debit card and cash at all payment points.
